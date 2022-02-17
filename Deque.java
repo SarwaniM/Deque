@@ -93,6 +93,15 @@ public class Deque<Item> implements Iterable<Item> {
     }
     // unit testing (required)
     public static void main(String[] args)
-
+    {
+        Deque<Integer> dq= new Deque<Integer>();
+        dq.addFirst(22);
+        dq.addFirst(56);
+        dq.addLast(99);
+        dq.removeFirst();
+        dq.addLast(1002);
+        dq.removeLast();
+        dq.addFirst(231);
+    }
 }
 
